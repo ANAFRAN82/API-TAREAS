@@ -1,7 +1,6 @@
+# API TAREAS
 
-                                                                                        # API TAREAS
 Descripción
-
 Esta API proporciona funcionalidades de CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar tareas. Está diseñada para ser utilizada en el backend de una aplicación con un frontend en React, permitiendo una integración sencilla y eficiente.
 Funcionalidades
 
