@@ -56,6 +56,5 @@ GET /api/tareas
       }
 
 5. Eliminar tarea
-
-DELETE /api/tareas/:id
-Elimina una tarea de la base de datos.
+- DELETE /api/tareas/:id
+- Elimina una tarea de la base de datos.
