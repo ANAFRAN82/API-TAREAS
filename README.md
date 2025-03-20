@@ -34,6 +34,7 @@ POST /api/tareas
 GET /api/tareas
  Devuelve una lista de todas las tareas.
 
+ 
 3. Buscar tarea por ID
 - GET /api/tareas/:id
 - Recupera una tarea específica por su ID.
@@ -41,17 +42,18 @@ GET /api/tareas
       Parámetros:
         id: ID único de la tarea.
 
+
 4. Editar tarea
+- PUT /api/tareas/:id
+- Actualiza los detalles de una tarea existente.
+  
+       Cuerpo de la solicitud:
 
-PUT /api/tareas/:id
-ctualiza los detalles de una tarea existente.
-    Cuerpo de la solicitud:
-
-    {
+      {
       "titulo": "Nuevo título",
       "descripcion": "Descripción actualizada",
       "estado": "completada"
-    }
+      }
 
 5. Eliminar tarea
 
