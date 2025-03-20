@@ -5,12 +5,11 @@ Esta API proporciona funcionalidades de CRUD (Crear, Leer, Actualizar, Eliminar)
 Funcionalidades
 
 La API permite realizar las siguientes operaciones sobre las tareas:
-
-    Crear Tareas: Permite agregar nuevas tareas al sistema.
-    Buscar Todas las Tareas: Recupera todas las tareas almacenadas en la base de datos.
-    Buscar Tareas por ID: Permite obtener una tarea específica utilizando su identificador único.
-    Editar Tareas: Modifica los detalles de una tarea existente.
-    Eliminar Tareas: Elimina una tarea de la base de datos.
+- Crear Tareas: Permite agregar nuevas tareas al sistema.
+- Buscar Todas las Tareas: Recupera todas las tareas almacenadas en la base de datos.
+- Buscar Tareas por ID: Permite obtener una tarea específica utilizando su identificador único.
+- Editar Tareas: Modifica los detalles de una tarea existente.
+- Eliminar Tareas: Elimina una tarea de la base de datos.
 
 Tecnologías
 
