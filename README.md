@@ -20,8 +20,8 @@ Endpoints
 1. Crear tarea
 
 POST /api/tareas
-Crea una nueva tarea.
-Cuerpo de la solicitud:
+- Crea una nueva tarea.
+- Cuerpo de la solicitud:
 
     {
       "titulo": "Mi nueva tarea",
@@ -35,9 +35,8 @@ GET /api/tareas
  Devuelve una lista de todas las tareas.
 
 3. Buscar tarea por ID
-
-GET /api/tareas/:id
-Recupera una tarea específica por su ID.
+- GET /api/tareas/:id
+- Recupera una tarea específica por su ID.
 
     Parámetros:
         id: ID único de la tarea.
