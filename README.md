@@ -23,11 +23,11 @@ POST /api/tareas
 - Crea una nueva tarea.
 - Cuerpo de la solicitud:
 
-    {
+       {
       "titulo": "Mi nueva tarea",
       "descripcion": "Descripción detallada de la tarea",
       "estado": "pendiente"
-    }
+      }
 
 2. Obtener todas las tareas
 
@@ -38,7 +38,7 @@ GET /api/tareas
 - GET /api/tareas/:id
 - Recupera una tarea específica por su ID.
 
-    Parámetros:
+      Parámetros:
         id: ID único de la tarea.
 
 4. Editar tarea
