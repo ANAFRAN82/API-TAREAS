@@ -12,10 +12,9 @@ La API permite realizar las siguientes operaciones sobre las tareas:
 - Eliminar Tareas: Elimina una tarea de la base de datos.
 
 Tecnologías
-
-    Backend: Node.js, Express
-    Base de Datos: MongoDB
-    Frontend (Sugerido): React
+- Backend: Node.js, Express
+- Base de Datos: MongoDB
+- Frontend (Sugerido): React
 
 Endpoints
 1. Crear tarea
