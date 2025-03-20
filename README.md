@@ -20,9 +20,8 @@ Endpoints
 1. Crear tarea
 
 POST /api/tareas
-
-    Crea una nueva tarea.
-    Cuerpo de la solicitud:
+Crea una nueva tarea.
+Cuerpo de la solicitud:
 
     {
       "titulo": "Mi nueva tarea",
@@ -33,22 +32,20 @@ POST /api/tareas
 2. Obtener todas las tareas
 
 GET /api/tareas
-
-    Devuelve una lista de todas las tareas.
+ Devuelve una lista de todas las tareas.
 
 3. Buscar tarea por ID
 
 GET /api/tareas/:id
+Recupera una tarea específica por su ID.
 
-    Recupera una tarea específica por su ID.
     Parámetros:
         id: ID único de la tarea.
 
 4. Editar tarea
 
 PUT /api/tareas/:id
-
-    Actualiza los detalles de una tarea existente.
+ctualiza los detalles de una tarea existente.
     Cuerpo de la solicitud:
 
     {
@@ -60,5 +57,4 @@ PUT /api/tareas/:id
 5. Eliminar tarea
 
 DELETE /api/tareas/:id
-
-    Elimina una tarea de la base de datos.
+Elimina una tarea de la base de datos.
